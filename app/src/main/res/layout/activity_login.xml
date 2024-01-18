@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lottie_fileName="fruit_selling.json"
+        android:layout_gravity="center"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/edtuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="21dp"
+        android:hint="Username              (***@gmail.com )             "
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:textSize="21dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:textSize="21dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="549dp" />
+    <TextView
+        android:id="@+id/txtnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create a new account"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+
+</LinearLayout>

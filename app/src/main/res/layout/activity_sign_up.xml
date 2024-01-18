@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Full Name"
+        android:layout_marginTop="100dp"
+        android:textSize="21dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/edtadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Address"
+        android:textSize="21dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Moile No"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:textSize="21dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:textSize="21dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:textSize="21dp"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupUserType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnfarmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:text="Farmer"/>
+
+        <RadioButton
+            android:id="@+id/btncustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:text="Customer"/>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textSize="21dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <TextView
+        android:id="@+id/txthave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="already have an account? SignIn"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="561dp" />
+</LinearLayout>

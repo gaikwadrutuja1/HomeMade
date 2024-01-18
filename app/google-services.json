@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453881595038",
+    "project_id": "home-2998e",
+    "storage_bucket": "home-2998e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453881595038:android:8f481c413f35fdba1d678f",
+        "android_client_info": {
+          "package_name": "com.agribyte.homemade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ZFt8iZpv8mJ8qUAwpDSlcrkG3_qZhVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
